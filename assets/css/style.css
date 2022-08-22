@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Montserrat&family=Nunito:ital,wght@0,400;800;1,300&family=PT+Sans:ital,wght@1,700&family=Roboto+Mono&family=Silkscreen&family=Work+Sans:wght@300&display=swap');
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+*{
+    font-family: 'Nunito', sans-serif;
+    transition: all 0.3s linear;
+
+}
+
+/********TOP*********/
+
+.bg-top{
+    background-color: #76b5eb;
+    height: 50vh;
+   
+}
+
+
+/********HEADER********/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px 15px;
+    box-sizing: border-box;
+}
+
+
+header .logo {
+    height: 50px;
+    
+}
+
+header .logo img {
+    height: 100%;
+}
